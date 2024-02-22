@@ -3,263 +3,247 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Catalin Magirescu
+    tagline: <b>Senior Software Architect and Engineer</b><br><br>Mastery in <b>React</b>, <b>React Native</b> and Cross-Platform development
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: '&#099;&#097;&#116;&#064;&#099;&#097;&#116;&#099;&#111;&#100;&#101;&#115;&#046;&#099;&#111;&#109;'
+    email-text: Initiate a conversation
+    phone: '&#048;&#055;&#052;&#048;&#049;&#056;&#048;&#055;&#050;&#056;&#057;'
+    phone-text: Engage with me
+    timezone: London, UK Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: catapps.co.uk #do not add http://
+    linkedin: catalin-magirescu
+    xing:
+    github: catalin3003
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: # add your nickname with '@' sign
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
+    pdf: /assets/documents/Catalin_Magirescu_CV.pdf #place a pdf file inside /assets/documents/ folder and provide the name of the file below
+    modern-pdf: /assets/documents/Catalin_Magirescu_CV_modern.pdf #place a pdf file inside /assets/documents/ folder and provide the name of the file below
     languages:
       title: Languages
       info:
         - idiom: English
-          level: Native
+          level: Fluent
+
+        - idiom: Romanian
+          level: Fluent
 
         - idiom: French
-          level: Professional
+          level: Basic
 
         - idiom: Spanish
-          level: Professional
+          level: Basic
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Technology innovation
           link:
 
-        - item: Snowboarding
+        - item: Open Source Contribution
           link:
 
-        - item: Cooking
+        - item: UI/UX Design
+          link:
+
+        - item: Charity Work
           link:
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      <b>Driving Project Success with Design, Management, and Development Expertise.</b><br>
+      With a robust 16-year tenure in front-end development, my core expertise lies in <b>React Native Web</b>, underpinned by a deep understanding of <b>TypeScript</b>. My technical proficiency extends
+      to unit testing with <b>Jest</b>, schema creation with <b>Zod</b>, and leveraging <b>Firebase</b> and <b>RESTful</b> services through <b>TanStack Query (FKA React Query)</b>. I excel in
+      <b>end-to-end testing frameworks</b> such as <b>Appium</b> and <b>Detox</b> and am a staunch advocate for solid <b>automation practices</b>, including seamless <b>CI/CD</b> pipelines with tools
+      like <b>EAP (Expo Application Services)</b>, <b>CircleCI</b>, <b>Bitrise</b>, and <b>Fastlane</b>. My foundational experience in <b>web design</b> has honed my eye for <b>UI/UX</b>, allowing me to
+      create compelling <b>user interfaces</b> using <b>Figma</b>, <b>Zeplin</b>, <b>Canva</b>, and <b>Marvel</b>. My skill set is diverse, encompassing <b>Node.js</b>, <b>Vue.js</b>, <b>Redux</b>, and
+      advanced <b>styling libraries</b> like <b>Tailwind CSS</b>. I am also proficient in <b>3D JavaScript libraries</b>, including <b>Three.js</b> and <b>D3.js</b>. My extensive background includes the
+      creation and management of <b>component libraries</b> and <b>design systems</b>, utilizing frameworks such as <b>Lottie</b> and <b>Tamagui</b> to ensure consistency and streamline development
+      processes. As an independent contractor, I am driven by a passion for delivering flawless features, fostering innovation through personal projects, and cultivating a culture of continuous learning
+      and improvement.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Master's degree in Automation Engineering - Mechatronics & Robotics
+        university: University Politehnica of Bucharest
+        time: 2005 - 2011
+      - degree: Bachelor's degree in Management Information Systems
+        university: University George Bacovia of Bacau
+        time: 2003 - 2007
 
 experiences:
-    title: Experiences
+    title: Work Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Founder
+        time: February 2024 - Present
+        company: <a href="https://plantopia.farm" target="_blank">Plantopia Farm</a> | Remote | United Kingdom
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          At <a href="https://plantopia.farm" target="_blank">Plantopia Farm</a>, I am pioneering a tech-driven approach to urban agriculture, leveraging my extensive experience in software architecture 
+          and cross-platform application development. My mission is to empower city residents to engage in sustainable farming practices through cutting-edge technology. Key contributions include:
+
+          - <b>Technical Visionary</b>: Conceptualized and developed an advanced <b>React Native Web</b> mobile & web application that enables users to design, manage, and monitor their urban gardens
+          effortlessly.
+          - <b>Full-Stack Development</b>: Single-handedly engineered the <b>full stack</b> of the platform, ensuring seamless integration between the app, cloud services, and IoT devices within the
+          urban farm ecosystem.
+          - <b>User Experience Design</b>: Focused on creating an intuitive <b>user interface</b> that simplifies complex agricultural processes into user-friendly interactions for a diverse user base.
+          - <b>Business Strategy</b>: Crafted a scalable business model tailored to meet the needs of urban farmers and promote the adoption of sustainable living practices.
+          - <b>Community Building</b>: Actively working towards building a community by engaging with potential users, gathering feedback, and iterating on the product to better serve the needs of
+          urban gardeners.
+          
+          As the founder and developer of this venture, I am dedicated to fostering urban sustainability with a clear vision and precise execution. This project is built on a commitment to social
+          and environmental progress, not profit.
+          We prioritise community enrichment and ecological health over financial gain. Our mission is to drive sustainable urban development that benefits society and the planet, ensuring our legacy
+          is measured by impact, not income. This is more than a business—it's a movement for a sustainable future.
+
+      - role: Founder & CTO
+        time: March 2008 - Present
+        company: <a href="https://catapps.co.uk" target="_blank">Cat Apps</a> (FKA Cat Codes & The Red Hearer) | Remote | United Kingdom, EU & US
+        details: |
+          - Founded a tech company delivering mobile and Web solutions, with expertise in <b>React Native</b>, <b>React.js</b>, <b>Node.js</b>, and <b>CI/CD</b> integration.
+          - Lead projects leveraging 16+ years of experience, focusing on <b>TypeScript</b> and <b>React Native Web</b>.
+          - Convert <b>UI/UX</b> designs to high-performance applications, ensuring scalability and design fidelity.
+          - Implement testing and automation frameworks such as <b>Jest</b>, <b>Zod</b>, <b>EAS</b>, and <b>CircleCI</b> to enhance development workflows.
+          - Oversee end-to-end testing with <b>Appium</b> and <b>Detox</b>, maintaining high standards for software quality across multiple browsers and platforms.
+          - Direct online brand identity projects, manage creative teams, and foster a culture of innovation and continuous learning.
+          - Utilise cutting-edge technologies like <b>React</b>, <b>Next.js</b> and <b>Tailwind CSS</b>, and maintain libraries for consistent development practices.
+
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: January 2022 - January 2024
+        company: <a href="http://checkatrade.com" target="_blank" rel="nofollow">Checkatrade</a> | Remote | London, United Kingdom
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Focused on front-end development, providing mentorship and coaching junior, mid and senior engineers, fostering their professional growth and promoting a culture of continuous learning.
+          - Led the design and development of complex software systems, ensuring adherence to coding standards and best practices.
+          - Collaborated with cross-functional teams to gather and analyse requirements, resulting in the successful delivery of high-quality software solutions.
+          - Identified and resolved technical challenges and performance bottlenecks, optimising software performance and scalability.
+          - Transformed Uls using <b>React Native Web</b> with full user experience redesign to release a beta MVP in 8 months, improving the page speed by 35%, decreasing debugging time by 53%, and
+          increasing user usage by more than 300%.
+          - Worked with product managers to re-architect the users' multi-page web app into a single-page application and developed two native apps for <b>iOS</b> and <b>Android</b> using
+          <b>React Native Web</b>, while integrating SaaS features, boosting yearly revenue by £11.6M.
+
+      - role: Senior Software Engineer
+        time: February 2018 - January 2022
+        company: <a href="https://www.fuseuniversal.com" target="_blank" rel="nofollow">Fuse Universal</a> | Remote | London, United Kingdom
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Focused on designing and developing robust web and mobile applications.
+          - Coordinated with various squads to maintain infrastructure and participated in agile ceremonies delivering complex layouts and ensured the quality of code through rigorous testing and reviews.
+          - Re-architected a Ruby-on-Rails web app into a single page application by implementing <b>React</b> micro frontend apps.
+          - Developed a <b>React Native</b> multilingual app with offline capabilities, merging LMS and LXP features for essential learning delivery.
+          - Implemented automated <b>CI/CD</b>, unit, and E2E testing, scaling from 600k to 4.6 million users across clients such as <b>Avon</b>, <b>Lotus</b>, <b>Volvo</b>, and <b>Hilti</b>.
+
+      - role: Lead Software Engineer
+        time: January 2017 - February 2018
+        company: Hevnly | Hybrid | London, United Kingdom
+        details: |
+          - Developed responsive enterprise web applications using <b>Vue</b>, <b>React</b>, <b>Redux</b>, and <b>Node.js</b>.
+          - Maintained Backbone-Marionette apps and provided training and coaching for junior and mid developers.
+          - Managed front-end architecture, including pul request reviews, post-merge deployments, and releases.
+
+      - role: Software Engineer
+        time: October 2015 - January 2017
+        company:  <a href="https://zincmedia.com" target="_blank" rel="nofollow">Zinc Media Group</a> | Onsite | London, United Kingdom
+        details: |
+          - Built intuitive and seamless web applications by collaborating with cross-functional teams.
+          - Contributed ot projects for renowned clients such as <b>BMW</b>, <b>TfL</b>, <b>Nationwide</b>, and <b>Siemens</b>.
+          - Ensured code quality across multiple technologies including <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript</b>, PHP, and Ruby.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: Complete React Native Bootcamp (with Hooks)
+          start: August 2022
+          organization: Zero To Mastery Academy
+          credentialid: UC-18b0f1d7-0205-418f-9d46-9912b3c6c35a
+          credentialurl: ude.my/UC-18b0f1d7-0205-418f-9d46-9912b3c6c35a
+          credentialname: React Native Bootcamp
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: 'Essential Google Cloud Infrastructure: Core Services'
+          start: August 2022
+          organization: Coursera
+          credentialid: RBNRK4HY9DAE
+          credentialurl: https://www.coursera.org/account/accomplishments/certificate/RBNRK4HY9DAE
+          credentialname: GCP Core Services
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - name: 'Essential Google Cloud Infrastructure: Foundation'
+          start: August 2022
+          organization: Coursera
+          credentialid: MFLATGSL4MG8
+          credentialurl: https://www.coursera.org/account/accomplishments/certificate/MFLATGSL4MG8
+          credentialname: GCP Foundation
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        - name: MERN Stack E-Commerce mobile App - React Native
+          start: January 2021
+          organization: Udemy
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - name: Node.js Complete Guide (MVC, REST APIs, GraphQL, Deno)
+          start: November 2020
+          organization: Udemy
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        - name: 'React Native: Advanced Concepts'
+          start: February 2019
+          organization: Udemy
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - name: 'Webpack Academy: From Beginner to Master (Sean Larkin)'
+          start: July 2018
+          organization: Skills Matter
+          credentialid: 606
+          credentialurl: https://skillsmatter.com/courses/606-webpack-academy-from-beginner-to-master
+          credentialname: Webpack
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        - name: 'Advanced Web design & programming courses'
+          start: August 2011
+          organization: Advantage Consulting
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Skills
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Front-end development
+      - name: Mobile application management
+      - name: Component libraries
+      - name: Node.js proficiency
+      - name: Attention to details
+      - name: User-centred design
+      - name: Automated testing
+      - name: Clear communication
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+expertise:
+    title: Expertise
+    toolset:
+      - name: React Native Web
+      - name: React.js
+      - name: React-Native
+      - name: TypeScript
+      - name: Git
+      - name: Node.js
+      - name: Tailwind CSS
+      - name: Three.js
+      - name: D3.js
+      - name: Unit testing with Jest
+      - name: Schema creation with Zod
+      - name: Firebase
+      - name: RESTful services and APIs
+      - name: EAS
+      - name: CircleCI
+      - name: Bitrise
+      - name: Fastlane
+      - name: UI/UX enhancement tools
+      - name: Lottie and Tamagui frameworks
+      - name: Component libraries
+      - name: Design systems
+      
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Made with <i class="fas fa-heart"></i> by <a href="https://catapps.co.uk" target="_blank">Cat Apps</a>

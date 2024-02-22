@@ -46,17 +46,17 @@ p {
 .sidebar-wrapper {
   grid-column: span 3;
   order: $sidebar-order;
-  background: $theme-color;
-  color: #fff;
+  // background: darken($theme-color, 10%);
+  background: #231f20;
+  color: $theme-color;
   a {
     color: #fff;
   }
   .profile-container {
     padding: 30px;
-    //background: darken($theme-color, 10%);
-    background: rgba(0, 0, 0, 0.2);
+    background: $theme-color;
     text-align: center;
-    color: #fff;
+    color: #231f20;
   }
   .name {
     font-size: 32px;
@@ -65,7 +65,7 @@ p {
     margin-bottom: 10px;
   }
   .tagline {
-    color: rgba(256, 256, 256, 0.6);
+    color: #231f20;
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
@@ -77,11 +77,11 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 100px;
+    max-width: 200px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
+    // border: 0px solid #fff;
     border-radius: 100%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
   .contact-list {
     .fas,
@@ -220,7 +220,7 @@ p {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 5px;
-    color: darken($theme-color, 15%);
+    color: darken($theme-color, 20%);
   }
   .projects-section {
     .intro {
@@ -254,22 +254,18 @@ p {
 
 .skillset {
   .item {
-    margin-bottom: 15px;
-    overflow: hidden;
+    margin: 3px;
+    padding: 7px;
+    border-radius: 7px;
+    background: darken($theme-color, 5%);;
   }
   .level-title {
     font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 12px;
+    margin: 0;
   }
-  .level-bar {
-    height: 12px;
-    background: $smoky-white;
-  }
-  .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
-  }
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .footer {
