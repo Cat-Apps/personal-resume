@@ -30,8 +30,8 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: /assets/documents/Catalin Magirescu CV_r.pdf #place a pdf file inside /assets/documents/ folder and provide the name of the file below
-    modern-pdf: /assets/documents/Catalin Magirescu CV_n.pdf #place a pdf file inside /assets/documents/ folder and provide the name of the file below
+    pdf: /assets/documents/Catalin_Magirescu_CV_r.pdf #place a pdf file inside /assets/documents/ folder and provide the name of the file below
+    modern-pdf: /assets/documents/Catalin_Magirescu_CV_n.pdf #place a pdf file inside /assets/documents/ folder and provide the name of the file below
     languages:
       title: Languages
       info:
